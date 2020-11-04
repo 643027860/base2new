@@ -1,0 +1,25 @@
+.el-table{
+  background-color: rgba(0,0,0,0.25);
+  color: #FFFFFF;
+  border-color: rgb(128,128,128);
+  *{
+    border-color: rgb(128,128,128) !important;
+  }
+  .el-table__header-wrapper{
+    tr{
+      background-color: rgba(0,0,0,0.25);
+      th{
+        color: #FFFFFF;
+        background-color: rgba(0,0,0,0.4);
+      }
+    }
+  }
+  .el-table__body-wrapper{
+    tr{
+      background-color: rgba(0,0,0,0.25);
+      &:hover>td{
+        background-color: rgba(0,0,0,0.3);
+      }
+    }
+  }
+}
