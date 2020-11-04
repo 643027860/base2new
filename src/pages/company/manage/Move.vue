@@ -67,6 +67,7 @@
     computed: {},
     mounted () {
       this.choiceMenuId('move')
+      console.log('aaaa')
     },
   }
 </script>
